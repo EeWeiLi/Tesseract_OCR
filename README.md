@@ -11,6 +11,7 @@ https://github.com/UB-Mannheim/tesseract/wiki
 Scroll down to find the latest .exe installer:
 
 Look for something like:
+
 tesseract-ocr-w64-setup-v5.3.1.20230401.exe
 
 Click to download and install it.
