@@ -1,9 +1,9 @@
-📄 OCR Application (Tesseract + Python)
+# OCR Application (Tesseract + Python)
 
 This project provides a simple and automated way to perform OCR (Optical Character Recognition) on PDF files using Python and Tesseract OCR.
 Just place your PDFs into a folder, run the script, and the extracted text will be saved automatically.
 
-🔧 Installation
+## Installation
 1. Install Python Dependencies
 
 Run the following command to install all required packages:
@@ -29,11 +29,11 @@ Add Tesseract to system PATH
 Select additional languages you need
 (e.g., English, Malay, Chinese, etc.)
 
-📁 Project Folder Structure
+## Project Folder Structure
 
 Prepare your project directory as follows:
 
-ocr_app/
+Tesseract_OCR/
 
  ├── app.py               ← main OCR script
  
@@ -41,7 +41,7 @@ ocr_app/
  
  ├── output_files/        ← OCR output (.txt) will be saved here
 
-▶️ How to Run
+## How to Run
 1. Verify Tesseract OCR Path
 
 Make sure Tesseract is installed here:
@@ -69,7 +69,7 @@ output_files/
 
 Each PDF will produce one .txt file with the same name.
 
-✅ Notes
+## Notes
 
 Supports multi-language OCR depending on your Tesseract installation.
 
