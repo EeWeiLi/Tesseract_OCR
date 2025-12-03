@@ -1,49 +1,76 @@
-Installation
+📄 OCR Application (Tesseract + Python)
 
-1.Install required packages using:
+This project provides a simple and automated way to perform OCR (Optical Character Recognition) on PDF files using Python and Tesseract OCR.
+Just place your PDFs into a folder, run the script, and the extracted text will be saved automatically.
+
+🔧 Installation
+1. Install Python Dependencies
+
+Run the following command to install all required packages:
 
 pip install -r requirements.txt
 
-2.Go to the recommended Windows installer page:
+2. Install Tesseract OCR (Windows)
 
+Go to the recommended Windows installer page:
 https://github.com/UB-Mannheim/tesseract/wiki
 
--Scroll down to find the latest .exe installer:
-
--Look for something like:
+Scroll down to find the latest .exe installer, usually named similar to:
 
 tesseract-ocr-w64-setup-v5.3.1.20230401.exe
 
--Click to download and install it.
 
--During installation, make sure to check:
+Download and run the installer.
 
-“Add to system PATH”
+During installation, ensure you check:
 
--Select your desired languages (you can add Malay, Chinese, etc.)
+Add Tesseract to system PATH
 
--Project Folder Layout
+Select additional languages you need
+(e.g., English, Malay, Chinese, etc.)
 
-Prepare your project folders as below:
+📁 Project Folder Structure
+
+Prepare your project directory as follows:
 
 ocr_app/
 
- ├── app.py
+ ├── app.py               ← main OCR script
  
- ├── input_files/     ← can put all PDFs here
+ ├── input_files/         ← place all PDF files here
  
- ├── output_files/    ← script will create text files here
+ ├── output_files/        ← OCR output (.txt) will be saved here
 
-How to Run:
+▶️ How to Run
+1. Verify Tesseract OCR Path
 
-1.Make sure the Tesseract OCR is installed in following path:
+Make sure Tesseract is installed here:
 
 C:\Program Files\Tesseract-OCR\tesseract.exe
 
-2.Copy your input files into “input_files” folder.
 
-3.Run the python file using:
+If installed elsewhere, update the path inside your Python script accordingly.
 
+2. Add Input Files
+
+Copy your PDF files into the input_files folder
+—or—
+open the application interface to select files/folders.
+
+3. Run the OCR Application
 python app.py
 
-4.The output files will be created in “output_files” folder in .txt format.
+4. Output
+
+All extracted text files will be saved in:
+
+output_files/
+
+
+Each PDF will produce one .txt file with the same name.
+
+✅ Notes
+
+Supports multi-language OCR depending on your Tesseract installation.
+
+Works best with high-quality scanned documents.
