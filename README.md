@@ -8,21 +8,21 @@ pip install -r requirements.txt
 
 https://github.com/UB-Mannheim/tesseract/wiki
 
-Scroll down to find the latest .exe installer:
+-Scroll down to find the latest .exe installer:
 
-Look for something like:
+-Look for something like:
 
 tesseract-ocr-w64-setup-v5.3.1.20230401.exe
 
-Click to download and install it.
+-Click to download and install it.
 
-During installation, make sure to check:
+-During installation, make sure to check:
 
 “Add to system PATH”
 
-Select your desired languages (you can add Malay, Chinese, etc.)
+-Select your desired languages (you can add Malay, Chinese, etc.)
 
-Project Folder Layout
+-Project Folder Layout
 
 Prepare your project folders as below:
 
