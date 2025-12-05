@@ -8,17 +8,23 @@ Just place your PDFs into a folder, run the script, and the extracted text will 
 
 Run the following command to install all required packages:
 
+```bash
 pip install -r requirements.txt
+```
 
 2. Install Tesseract OCR (Windows)
 
 Go to the recommended Windows installer page:
+
+```bash
 https://github.com/UB-Mannheim/tesseract/wiki
+```
 
-Scroll down to find the latest .exe installer, usually named similar to:
+Scroll down to find the latest **.exe** installer, usually named similar to:
 
+```bash
 tesseract-ocr-w64-setup-v5.3.1.20230401.exe
-
+```
 
 Download and run the installer.
 
@@ -46,26 +52,31 @@ Tesseract_OCR/
 
 Make sure Tesseract is installed here:
 
+```bash
 C:\Program Files\Tesseract-OCR\tesseract.exe
-
+```
 
 If installed elsewhere, update the path inside your Python script accordingly.
 
 2. Add Input Files
 
 Copy your PDF files into the input_files folder
+
 —or—
-open the application interface to select files/folders.
+
+Open the application interface to select files/folders.
 
 3. Run the OCR Application
+
+```bash
 python app.py
+```
 
 4. Output
 
 All extracted text files will be saved in:
 
 output_files/
-
 
 Each PDF will produce one .txt file with the same name.
 
